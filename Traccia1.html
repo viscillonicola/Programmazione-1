@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+<TITLE>
+Prima traccia
+</TITLE>
+</HEAD>
+<BODY bgcolor="6397D0" text="black">
+<h1> <center> Gioco delle biglie </center> </h1>
+<center> <IMG SRC="images/immagine_gioco_biglie.jpg" width=541 height=360></center>
+<h3> <br> <br> TRACCIA: <br> </h3>
+Si vuole sviluppare un programma per la simulazione del gioco delle biglie.
+Supponiamo di avere un giocatore che gioca su di un campo di dimensione N x N. Il
+giocatore (rosso in figura) in ogni istante può lanciare in una delle 8 direzioni. Nel
+campo da gioco esiste una sola buca, scelta in modo casuale all’inizio del gioco, che
+permette di terminare il gioco ed è nota al giocatore.<br>
+Il giocatore può incontrare diverse difficoltà durante il percorso:
+<ul>
+<li>40 buche nascoste al giocatore fanno andare la palla in un’altra posizione
+scelta casualmente;</li>
+<li>20 buche fanno terminare il gioco senza arrivare alla fine del gioco</li>
+</ul>
+Il gioco procede in questo modo:
+<ul>
+<li>La posizione iniziale del giocatore è casuale ma non può corrispondere con
+quella della buca;</li>
+<li>Ad ogni lancio viene visualizzato il campo da gioco e la posizione del
+giocatore. Viene chiesto al giocatore la direzione di lancio della palla;</li>
+<li>La palla che va fuori va rimessa in una posizione casuale sul bordo da dove
+è uscita;</li>
+<li>Il gioco termina o quando la palla va nella buca principale o quando si
+superano 50 tiri.</li>
+</ul>
+Simulare 10 volte la gara ed elencare il numero di tiri effettuati in ordine crescente
+(50 è il punteggio assegnato se il gioco termina inaspettatamente). 
+L’algoritmo usa la function rand() in stdlib per generare numeri casuali: si
+ricorda che, per esempio, se numero_casuale è un int, la chiamata
+numero_casuale=rand()%11; genera un numero casuale intero (distribuzione
+uniforme) nell’insieme (0,1,2,3,4,5,6,7,8,9,10). Effettuare almeno 3 simulazioni.
+<br> <br>
+<p style="font family:arial"><a href="Traccia_1/main.c" target=_blank>Clicca qui</a> per aprire il main </p>
+<p style="font family:arial"><a href="Traccia_1/giocobiglie.c" target=_blank>Clicca qui</a> per aprire il file .c</p>
+<p style="font family:arial"><a href="Traccia_1/giocobiglie.h" target=_blank>Clicca qui</a> per aprire il file .h</p>
+<h3> <br> OUTPUTS: <br> </h3>
+<p style="font family:arial"><a href="traccia1_primotest.html" target=_blank>Clicca qui</a> per vedere gli outputs del primo test</p>
+<p style="font family:arial"><a href="traccia1_secondotest.html" target=_blank>Clicca qui</a> per vedere gli outputs del secondo test</p>
+<p style="font family:arial"><a href="traccia1_terzotest.html" target=_blank>Clicca qui</a> per vedere gli outputs del terzo test</p>
+</BODY>
+</HTML>

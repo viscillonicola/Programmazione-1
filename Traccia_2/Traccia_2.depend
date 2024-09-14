@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1640957473 source:c:\users\nicol\desktop\relazione_viscillo_nicola\traccia_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"gestionedischi.h"
+
+1640960233 c:\users\nicol\desktop\relazione_viscillo_nicola\traccia_2\gestionedischi.h
+	"gestionedischi.c"
+
+1641040355 c:\users\nicol\desktop\relazione_viscillo_nicola\traccia_2\gestionedischi.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

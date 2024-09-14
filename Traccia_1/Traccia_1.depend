@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1640953823 source:c:\users\nicol\desktop\relazione_viscillo_nicola\traccia_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"giocobiglie.h"
+
+1640889940 c:\users\nicol\desktop\relazione_viscillo_nicola\traccia_1\giocobiglie.h
+	"giocobiglie.c"
+
+1640889940 c:\users\nicol\desktop\relazione_viscillo_nicola\traccia_1\giocobiglie.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
