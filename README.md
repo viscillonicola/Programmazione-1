@@ -14,6 +14,8 @@ Le esercitazioni sono:
 - Gioco delle biglie (Traccia_1);
 - Gestione dischi (Traccia_2).
 
+Il file "index.html" fornisce una breve descrizione dei progetti, i codici e i risultati.
+
 # Gioco delle biglie
 
 Questo programma simula il gioco delle biglie su un campo di dimensioni N × N. Il giocatore, partendo da una posizione casuale, lancia la palla in una delle 8 direzioni disponibili, cercando di farla arrivare nella buca principale per vincere il gioco. 
