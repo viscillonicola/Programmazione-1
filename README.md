@@ -22,16 +22,16 @@ Questo programma simula il gioco delle biglie su un campo di dimensioni N × N. 
 
 Le caratteristiche di questo gioco sono:
 - La posizione iniziale del giocatore e quella della buca principale sono scelte casualmente;
-- Oltre alla buca principale, ci sono buche nascoste, in cui se la palla ci finisce viene spostata in una posizione casuale del campo, e buche letali, in cui se la palla ci finisce il gioco termina immediatamente;
-- Se la palla va fuori dal campo, viene riposizionata in un punto casuale sul bordo.
+- Oltre alla buca principale, ci sono buche nascoste, che spostano la palla in una posizione casuale del campo, e buche letali, che terminano il gioco immediatamente;
+- Se la palla esce dal campo, viene riposizionata in un punto casuale sul bordo.
 
 # Gestione dischi
 
 Questo programma gestisce un archivio di dischi organizzato in categorie musicali. Ogni categoria contiene una lista di dischi, identificati da titolo, autore e prezzo.
 
 Le funzionalità principali del programma sono le seguenti:
-- Inserimento di un disco;
-- Eliminazione di un disco;
-- Visualizzazione di un disco;
-- Trovare il disco più economico.
+- Inserimento di un disco in una categoria specifica;
+- Eliminazione di un disco tramite il titolo;
+- Visualizzazione dei dischi presenti;
+- Trovare il disco con il prezzo più basso all'interno di una categoria.
 
