@@ -11,8 +11,8 @@ Il progetto si basa su due esercitazioni che comprendono argomenti come:
 - Generazione numeri casuali.
 
 Le esercitazioni sono:
-- Gioco delle biglie;
-- Gestione dischi.
+- Gioco delle biglie (Traccia_1);
+- Gestione dischi (Traccia_2).
 
 # Gioco delle biglie
 
@@ -23,4 +23,13 @@ Le caratteristiche di questo gioco sono:
 - Oltre alla buca principale, ci sono buche nascoste, in cui se la palla ci finisce viene spostata in una posizione casuale del campo, e buche letali, in cui se la palla ci finisce il gioco termina immediatamente;
 - Se la palla va fuori dal campo, viene riposizionata in un punto casuale sul bordo.
 
+# Gestione dischi
+
+Questo programma gestisce un archivio di dischi organizzato in categorie musicali. Ogni categoria contiene una lista di dischi, identificati da titolo, autore e prezzo.
+
+Le funzionalità principali del programma sono le seguenti:
+- Inserimento di un disco;
+- Eliminazione di un disco;
+- Visualizzazione di un disco;
+- Trovare il disco più economico.
 
